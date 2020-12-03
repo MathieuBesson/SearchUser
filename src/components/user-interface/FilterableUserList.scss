@@ -1,0 +1,9 @@
+@import "../../design-tokens/_scss-variables.scss";
+
+.users{
+    display: flex;
+    margin: 5% 10%;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
