@@ -15,14 +15,14 @@ Lien vers la version en ligne : https://mathieubesson-search-user.netlify.app
 
 ## Fonctionnalités 
 
-Tri des utilisateurs (fictifs) selon les critères suivants: 
+Tri des utilisateurs (fictifs) selon les critères suivants : 
 * Identité 
 * Adresse Mac
 * Adresse IP
 * Nombres de likes du profil
 * Nombre d'amis 
 * Nombre de photos 
-* Status actuel du compte 
+* Statut actuel du compte 
 
 ---
 
