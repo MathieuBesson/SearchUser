@@ -9,25 +9,25 @@ Lien vers la version en ligne : https://mathieubesson-search-user.netlify.app
 
 ## Fonctionnalités 
 
-* Tri des utilisateurs (fictifs) selon les critères suivants: 
-** Identité 
-** Adresse Mac
-** Adresse IP
-** Nombres de likes du profil
-** Nombre d'amis 
-** Nombre de photos 
-** Status actuel du compte 
+Tri des utilisateurs (fictifs) selon les critères suivants: 
+* Identité 
+* Adresse Mac
+* Adresse IP
+* Nombres de likes du profil
+* Nombre d'amis 
+* Nombre de photos 
+* Status actuel du compte 
 
 ---
 
 ## Outils 
 
-* [React](http://reactjs.org/) React JS avec Create React App (CRA)
-* [Sass](https://sass-lang.com/) Sass
-* [Google Font](https://fonts.google.com/) Polices Google Font
-* [Picsum Photos](https://picsum.photos) API de Picsum Photos
-* [Faker Api](https://fakerapi.it/en) API Faker Api
-* [Font Awesome](https://fontawesome.com/) Font Awesome
+* [React](http://reactjs.org/) avec Create React App (CRA)
+* [Sass](https://sass-lang.com/)
+* [Google Font Polices](https://fonts.google.com/)
+* [Picsum Photos API](https://picsum.photos)
+* [Faker Api](https://fakerapi.it/en)
+* [Font Awesome](https://fontawesome.com/)
 
 ---
 
@@ -36,6 +36,6 @@ Lien vers la version en ligne : https://mathieubesson-search-user.netlify.app
 1. Télécharger/Cloner le projet.
 2. Lancer la commande `npm update` puis `npm start` sur votre terminal
 3. Ouvrir [http://localhost:3000](http://localhost:3000) pour visualiser dans le browser (S'ouvre normalement par défaut)
-4. N'hésitez pas à me donner votre avis sur twitter https://twitter.com/BessonMathieu3 en MP !
+4. N'hésitez pas à me donner votre avis sur [Twitter](https://twitter.com/BessonMathieu3) en MP !
 
 ---
