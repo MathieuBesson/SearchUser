@@ -21,10 +21,6 @@ class SearchBar extends React.Component {
         if (value.length <= 15) { this.props.onFilterItemChange('ip', value) }
     }
 
-    // handleInStockChange = (e) => {
-    //     this.props.onInStockChange(e.target.checked)
-    // }
-
     firstCaractToUpper(string){
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
@@ -72,22 +68,32 @@ class SearchBar extends React.Component {
             <RadioInput
                 name={inputName}
                 value={this.props.filters[inputName]}
-                choices={['connected', 'recently', 'disconnected', 'all']}
-                handleChange={(e) => {this.props.onFilterItemChange(inputName, e.target.value); console.log('Ca passe')}}
+                choices={['all', 'connected', 'recently', 'disconnected']}
+                handleChange={(e) => {this.props.onFilterItemChange(inputName, e.target.value)}}
                 key={id}
             />
         )));
 
         return (
             <form className="search-bar">
-                <p className="global-label">Please enter a text</p>
-                {inputs.text}
-                <p className="global-label">Please enter select a value from range</p>
-                {inputs.range}
-                <p className="global-label">Please select an user login status</p>
-                {inputs.radio}
-                {/* <input type="checkbox" id="only-stock" checked={this.props.stock} onChange={this.handleInStockChange} name="only-stock"/> */}
-                {/* <label htmlFor="only-stock">Only show products in stock</label> */}
+                <section className="search-bar-group">
+                    <p className="search-bar-group-label">Search by Identy, Mac Adress or IP Adress</p>
+                    <div className="search-bar-group-item">
+                        {inputs.text}   
+                    </div>
+                </section>
+                <section className="search-bar-group">
+                    <p className="search-bar-group-label">Search by a min likes, friends, or photos range</p>
+                    <div className="search-bar-group-item">
+                        {inputs.range}
+                    </div>
+                </section>
+                <section className="search-bar-group">
+                    <p className="search-bar-group-label">Search by user login status</p>
+                    <div className="search-bar-group-item">
+                        {inputs.radio}
+                    </div>
+                </section>
             </form>
         );
     }

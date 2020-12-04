@@ -1,0 +1,55 @@
+@import "../../design-tokens/_scss-variables.scss";
+.search-bar-group-item-radio{
+    display: flex;
+}
+
+.radio-container {
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+    margin: 0 2em;
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        &:checked ~ .checkmark {
+            @extend %radio-bg-color;
+            &::after { display: block;}
+        }
+    }
+    &:hover input ~ .checkmark {
+        @extend %radio-bg-color;
+    }
+}
+
+.checkmark {
+    position: absolute;
+    top: -2px;
+    left: -35px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: $third-color;
+    transition: all 0.3s;
+    &:after {
+        content: "";
+        position: absolute;
+        display: none;
+        top: 5px;
+        left: 5px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background:$third-color;
+    }
+}
+
+%radio-bg-color{
+    @each $login-status, $background-color in $status {
+        &.#{$login-status}{
+            background-color: $background-color;
+        }
+    }
+}
+
+

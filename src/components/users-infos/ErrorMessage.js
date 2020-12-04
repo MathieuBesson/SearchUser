@@ -1,8 +1,8 @@
 import React from 'react';
-import './ErrorMessage.css';
+import './ErrorMessage.scss';
 
 function ErrorMessage(props){
-	return <div className="error-msg">Erreur : {props.message}</div>
+	return <div className="error-msg">{props.message}</div>
 }
 
 export default ErrorMessage;

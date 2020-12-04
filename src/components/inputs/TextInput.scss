@@ -1,0 +1,24 @@
+@import "../../design-tokens/_scss-variables.scss";
+
+.search-bar-group-item-text{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em ;
+    input{
+        margin-top: 1em;
+        padding: 0.8em;
+        background-color: transparent;
+        border: none;
+        border-bottom: solid 1px $second-color;
+        outline: none;
+        color: $second-color;
+        text-align: center;
+        letter-spacing: 0.13em;
+        &::placeholder {
+            color: $first-color;
+            opacity: 0.8;
+            font-weight: 300;
+            letter-spacing: 0.13em;
+        }
+    }
+}

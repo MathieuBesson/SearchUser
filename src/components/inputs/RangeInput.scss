@@ -1,0 +1,81 @@
+@import "../../design-tokens/_scss-variables.scss";
+
+.search-bar-group-item-label {
+    display: block;
+    width: 100%;
+}
+
+.search-bar-group-item-range {
+    margin: 0 1.5em;
+    input {
+        -webkit-appearance: none;
+        margin: 10px 0;
+        width: 100%;
+        background-color: transparent;
+        &:focus {outline: none;}
+        &::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 12.8px;
+            cursor: pointer;
+            background: $third-color;
+            border-radius: 25px;
+            border: 0px solid #000101;
+        }
+        &::-moz-range-track {
+            width: 100%;
+            height: 12.8px;
+            cursor: pointer;
+            background: $third-color;
+            border-radius: 25px;
+            border: 0px solid #000101;
+        }
+        &::-ms-track {
+            width: 100%;
+            height: 12.8px;
+            cursor: pointer;
+            background: transparent;
+            border-color: transparent;
+            border-width: 39px 0;
+            color: transparent;
+        }
+        &:focus::-webkit-slider-runnable-track {
+            background: $third-color;
+        }
+        &:focus::-ms-fill-lower {
+            background: $third-color;
+        }
+        &:focus::-ms-fill-upper {
+            background: $third-color;
+        }
+        &::-webkit-slider-thumb {
+            box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+            border: 0px solid #000000;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            background: $second-color;
+            transform: translateY(-2px);
+            cursor: pointer;
+            -webkit-appearance: none;
+            margin-top: -3.6px;
+        }
+        &::-moz-range-thumb {
+            box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+            border: 0px solid #000000;
+            height: 20px;
+            width: 39px;
+            border-radius: 7px;
+            background: $second-color;
+            cursor: pointer;
+        }
+        &::-ms-thumb {
+            box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+            border: 0px solid #000000;
+            height: 20px;
+            width: 39px;
+            border-radius: 7px;
+            background: $second-color;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,5 +1,6 @@
 
 import React from 'react'
+import './App.scss'
 
 // Modules
 import FilterableUserList from './user-interface/FilterableUserList'
@@ -11,7 +12,12 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fab, fas)
 
 function App(){
-	return <FilterableUserList />
+	return (
+		<article className="main">
+			<h1>Search User !</h1>
+			<FilterableUserList />
+		</article>
+	)
 } 
 
 

@@ -80,7 +80,6 @@ class FilterableUserList extends React.Component {
 	}
 
 	handleFilterChange = (key, filter) => {
-		console.log(key, filter)
 		this.setState(prevState => ({
 			filters: {
 				...prevState.filters,
@@ -146,7 +145,7 @@ class FilterableUserList extends React.Component {
 						<article className="users">
 							{users}
 						</article> :
-						<p>No result for your research !</p>
+						<ErrorMessage message="No results for your search..." />
 					}
 				</div>
 			)

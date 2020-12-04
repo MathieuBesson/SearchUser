@@ -1,0 +1,11 @@
+@import "../design-tokens/_scss-variables.scss";
+
+.main{
+    margin-top: 3em;
+}
+
+h1{
+    text-align: center;
+    color: $second-color;
+    font-size: 4em;
+}

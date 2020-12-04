@@ -1,1 +1,28 @@
 @import "../../design-tokens/_scss-variables.scss";
+
+
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar-group{
+    margin-top: 3em;
+}
+.search-bar-group-item{
+    display: flex;
+}
+
+.search-bar-group-label{
+    text-align: center;
+    color: $first-color;
+    font-size: 1.6em;
+    margin-bottom: 1.25em;
+}
+
+.search-bar-group-item-label{
+    color: $second-color;
+    font-size: 1.4em;
+    text-align: center;
+}
