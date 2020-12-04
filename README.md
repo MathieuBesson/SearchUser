@@ -7,7 +7,7 @@
 </p>
 
 Le projet Search User est une interface permettant de visualiser des utilisateurs en les filtrant à partir de multiples tris ajustable à votre convenance.
-Ce projet m'as permis d'expérimenter et de découvrir un peu plus en profondeur le Framework ReactJs par la pratique.
+Ce projet m'a permis d'expérimenter et de découvrir un peu plus en profondeur le Framework ReactJs par la pratique.
 
 Lien vers la version en ligne : https://mathieubesson-search-user.netlify.app  
 
