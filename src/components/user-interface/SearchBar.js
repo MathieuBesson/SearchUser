@@ -77,13 +77,13 @@ class SearchBar extends React.Component {
         return (
             <form className="search-bar">
                 <section className="search-bar-group">
-                    <p className="search-bar-group-label">Search by Identy, Mac Adress or IP Adress</p>
+                    <p className="search-bar-group-label">Search by Identity, Mac adress or IP adress</p>
                     <div className="search-bar-group-item">
                         {inputs.text}   
                     </div>
                 </section>
                 <section className="search-bar-group">
-                    <p className="search-bar-group-label">Search by a min likes, friends, or photos range</p>
+                    <p className="search-bar-group-label">Search by minimum likes, friends or photos</p>
                     <div className="search-bar-group-item">
                         {inputs.range}
                     </div>
