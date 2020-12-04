@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://mathieubesson-search-user.netlify.app">
-        <img src="https://mathieubesson-search-user.netlify.app/favicon-black.png" alt="logo">
+        <img src="https://mathieubesson-search-user.netlify.app/favicon-black.png" height="250px" alt="logo">
     </a>
 </p>
 
